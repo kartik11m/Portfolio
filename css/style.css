@@ -360,6 +360,9 @@ a:hover{
     cursor: pointer;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio_wrapper .portfolio-img>img{
@@ -367,6 +370,19 @@ a:hover{
     object-fit: cover;
     object-position: center;
     opacity: 0;
+}
+
+.portfolio_wrapper .portfolio-label{
+    color: var(--text-white);
+    font-size: 1.25rem;
+    font-weight: 600;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .portfolio_wrapper .portfolio-img .hidden-text{
