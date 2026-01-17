@@ -358,12 +358,15 @@ a:hover{
     position: relative;
     border-radius: .9375rem;
     cursor: pointer;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    overflow: hidden;
 }
 
 .portfolio_wrapper .portfolio-img>img{
     border-top-right-radius: .9375rem;
     object-fit: cover;
     object-position: center;
+    opacity: 0;
 }
 
 .portfolio_wrapper .portfolio-img .hidden-text{
