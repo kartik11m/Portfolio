@@ -164,6 +164,7 @@
          padding:.4375rem 1.875rem;
          margin-top:1.25rem;
          display:inline-block;
+         white-space: nowrap;
      }
  
      /* testimonial */ 

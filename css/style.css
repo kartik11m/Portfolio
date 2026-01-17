@@ -304,10 +304,13 @@ a:hover{
 
 .resume_wrapper .year span{
     font-style: 1.25rem;
-    color: var(--primary-color);
+    color: var(--text-white);
+    background-color: var(--primary-color);
     border: 0.0625rem solid var(--primary-color);
     border-radius: 3.125rem;
     padding: .5rem 2.1875rem .4375rem;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .resume_wrapper .progress{
