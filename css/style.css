@@ -383,6 +383,12 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease;
+}
+
+.portfolio_wrapper .portfolio-img:hover .portfolio-label{
+    opacity: 0;
+    pointer-events: none;
 }
 
 .portfolio_wrapper .portfolio-img .hidden-text{
